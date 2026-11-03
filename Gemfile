@@ -24,6 +24,13 @@ group :development, :test do
   gem 'rubocop-rake'
   gem 'rubocop-thread_safety'
   gem 'simplecov'
+
+  # Duel requires Ruby 3.4 or later
+  if RUBY_VERSION >= '3.4'
+    gem 'duel', '>= 0.1.4'
+    gem 'duel-memcached', '>= 0.1.2'
+  end
+  gem 'stackprof', platforms: :mri
 end
 
 group :test do
