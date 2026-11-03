@@ -1,4 +1,4 @@
-Dalli [![Tests](https://github.com/petergoldstein/dalli/actions/workflows/tests.yml/badge.svg)](https://github.com/petergoldstein/dalli/actions/workflows/tests.yml)
+Dalli [![Tests](https://github.com/petergoldstein/dalli/actions/workflows/tests.yml/badge.svg)](https://github.com/petergoldstein/dalli/actions/workflows/tests.yml) [![Duel](https://raw.githubusercontent.com/petergoldstein/dalli/duel/badge/badge.svg)](https://github.com/sferik/duel-ruby)
 =====
 
 Dalli is a high performance pure Ruby client for accessing memcached servers.
