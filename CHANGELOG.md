@@ -4,6 +4,10 @@ Dalli Changelog
 Unreleased
 ==========
 
+Other changes:
+
+- Add a Perf workflow that runs the benchmarks in `duel/` with [Duel](https://github.com/sferik/duel-ruby) on each pull request and push, comparing the change with `main`, and fails a pull request that makes Dalli slower or allocate more (@sferik)
+
 5.3.2
 ==========
 
