@@ -4,7 +4,7 @@ name: Tests
 # branch isn't tested twice
 on:
   push:
-    branches: [main, '*-stable']
+    branches: [main, '*-stable', ci-check]
   pull_request:
 
 concurrency:
