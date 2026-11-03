@@ -1,5 +1,9 @@
 inherit_from: .rubocop_todo.yml
 
+inherit_mode:
+  merge:
+    - Include
+
 plugins:
   - rubocop-minitest
   - rubocop-performance
@@ -15,6 +19,8 @@ ThreadSafety:
 AllCops:
   NewCops: enable
   TargetRubyVersion: 3.3
+  Include:
+    - '.duel.rb'
   Exclude:
     - 'bin/benchmark_*'
     - 'vendor/**/*'
